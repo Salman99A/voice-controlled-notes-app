@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VoiceNotes</string>
+    <string name="app_tagline">Speak. Capture. Organize.</string>
+
+    <!-- Navigation & Headers -->
+    <string name="title_recent_notes">Recent Notes</string>
+    <string name="title_search_notes">Search Notes</string>
+    <string name="title_create_note">Create Note</string>
+    <string name="title_edit_note">Edit Note</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_voice_commands">Voice Commands Guide</string>
+
+    <!-- Note Details Form -->
+    <string name="hint_note_title">Title</string>
+    <string name="hint_note_content">Type your note or tap the mic to dictate...</string>
+    <string name="hint_search_notes">Search notes by title, content or tag...</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_undo">Undo</string>
+    <string name="btn_read_aloud">Read Aloud</string>
+    <string name="btn_stop_reading">Stop Reading</string>
+    <string name="btn_share">Share Note</string>
+    <string name="btn_set_reminder">Set Reminder</string>
+    <string name="btn_remove_reminder">Remove Reminder</string>
+    <string name="label_category">Category</string>
+    <string name="label_reminder">Reminder</string>
+    <string name="label_all_categories">All</string>
+
+    <!-- Categories -->
+    <string name="cat_general">General</string>
+    <string name="cat_work">Work</string>
+    <string name="cat_study">Study</string>
+    <string name="cat_ideas">Ideas</string>
+    <string name="cat_personal">Personal</string>
+    <string name="cat_todo">To-Do</string>
+
+    <!-- Voice Control & Recognition -->
+    <string name="mic_tap_to_speak">Tap to Speak</string>
+    <string name="mic_listening">Listening…</string>
+    <string name="mic_processing">Processing command…</string>
+    <string name="mic_recognized_text">Recognized Speech</string>
+    <string name="mic_command_executed">Command executed</string>
+    <string name="mic_say_something">"Say 'Create note', 'Search Java', or dictate anything"</string>
+    <string name="mic_dictate_tooltip">Dictate note content</string>
+    <string name="voice_action_save_note">Save as Note</string>
+    <string name="voice_action_run_command">Execute Command</string>
+    <string name="voice_action_try_again">Try Again</string>
+
+    <!-- Status & Feedback Messages -->
+    <string name="msg_note_saved">Note saved successfully</string>
+    <string name="msg_note_deleted">Note moved to trash</string>
+    <string name="msg_note_restored">Note restored</string>
+    <string name="msg_all_notes_deleted">All notes deleted</string>
+    <string name="msg_empty_note_warning">Cannot save an empty note</string>
+    <string name="msg_delete_confirm_title">Delete Note?</string>
+    <string name="msg_delete_confirm_body">Are you sure you want to permanently delete this note?</string>
+    <string name="msg_delete_all_confirm_title">Delete All Notes?</string>
+    <string name="msg_delete_all_confirm_body">This action will delete all your notes permanently. Are you sure?</string>
+    <string name="msg_permission_mic_required">Microphone permission is required for voice commands and speech-to-text.</string>
+    <string name="msg_permission_notif_required">Notification permission is required to receive scheduled note reminders.</string>
+    <string name="msg_speech_not_available">Speech recognition is not available on this device.</string>
+    <string name="msg_tts_not_available">Text-to-Speech is not available on this device.</string>
+    <string name="msg_no_notes_found">No matching notes found</string>
+    <string name="msg_empty_notes_list">No notes yet.\nTap the mic or + to create your first voice note!</string>
+    <string name="msg_reminder_set">Reminder scheduled</string>
+    <string name="msg_reminder_cancelled">Reminder removed</string>
+    <string name="msg_export_success">Notes exported successfully</string>
+    <string name="msg_command_not_understood">Command not recognized. Saving as new note instead.</string>
+
+    <!-- Settings Options -->
+    <string name="settings_appearance_title">Appearance</string>
+    <string name="settings_theme_title">Theme Mode</string>
+    <string name="theme_light">Light Mode</string>
+    <string name="theme_dark">Dark Mode</string>
+    <string name="theme_system">System Default</string>
+
+    <string name="settings_voice_title">Voice &amp; Audio</string>
+    <string name="settings_enable_voice_commands">Enable Voice Commands</string>
+    <string name="settings_enable_voice_commands_desc">Allow voice actions like "Search", "Delete", and "Set reminder"</string>
+    <string name="settings_tts_speech_rate">Text-to-Speech Speed</string>
+    <string name="settings_tts_pitch">Text-to-Speech Pitch</string>
+
+    <string name="settings_notifications_title">Notifications</string>
+    <string name="settings_enable_reminders">Note Reminders</string>
+    <string name="settings_enable_reminders_desc">Receive notifications when note reminders are due</string>
+
+    <string name="settings_data_title">Data &amp; Backup</string>
+    <string name="settings_export_all">Export All Notes (TXT)</string>
+    <string name="settings_export_all_desc">Share or backup all notes in text format</string>
+    <string name="settings_clear_all">Clear All Notes</string>
+    <string name="settings_clear_all_desc">Permanently remove all notes from storage</string>
+
+    <string name="settings_about_title">About &amp; Privacy</string>
+    <string name="settings_about_desc">VoiceNotes v1.0 • Offline-first, secure local storage</string>
+    <string name="settings_privacy_note">Your notes are stored locally on your device and are never sent to external servers.</string>
+    <string name="settings_help_voice_commands">Supported Voice Commands Guide</string>
+
+    <!-- Accessibility Descriptions -->
+    <string name="desc_mic_button">Microphone button for voice input and commands</string>
+    <string name="desc_search_button">Search notes</string>
+    <string name="desc_settings_button">Open application settings</string>
+    <string name="desc_add_note_button">Create a new note</string>
+    <string name="desc_clear_search">Clear search query</string>
+    <string name="desc_back_button">Navigate back</string>
+    <string name="desc_save_note">Save note</string>
+    <string name="desc_more_options">More options</string>
+    <string name="desc_read_aloud">Read note aloud with text-to-speech</string>
+    <string name="desc_pin_note">Pin or unpin note</string>
+</resources>
